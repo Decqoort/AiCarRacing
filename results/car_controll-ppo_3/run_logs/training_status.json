@@ -1,0 +1,65 @@
+{
+    "CarControll": {
+        "checkpoints": [
+            {
+                "steps": 999936,
+                "file_path": "results\\car_controll-ppo_3\\CarControll\\CarControll-999936.onnx",
+                "reward": -227.12077796459198,
+                "creation_time": 1713624344.2169077,
+                "auxillary_file_paths": [
+                    "results\\car_controll-ppo_3\\CarControll\\CarControll-999936.pt"
+                ]
+            },
+            {
+                "steps": 1499904,
+                "file_path": "results\\car_controll-ppo_3\\CarControll\\CarControll-1499904.onnx",
+                "reward": null,
+                "creation_time": 1713625432.052914,
+                "auxillary_file_paths": [
+                    "results\\car_controll-ppo_3\\CarControll\\CarControll-1499904.pt"
+                ]
+            },
+            {
+                "steps": 1999920,
+                "file_path": "results\\car_controll-ppo_3\\CarControll\\CarControll-1999920.onnx",
+                "reward": -562.4358761651175,
+                "creation_time": 1713626509.5954666,
+                "auxillary_file_paths": [
+                    "results\\car_controll-ppo_3\\CarControll\\CarControll-1999920.pt"
+                ]
+            },
+            {
+                "steps": 2499968,
+                "file_path": "results\\car_controll-ppo_3\\CarControll\\CarControll-2499968.onnx",
+                "reward": null,
+                "creation_time": 1713627695.5125902,
+                "auxillary_file_paths": [
+                    "results\\car_controll-ppo_3\\CarControll\\CarControll-2499968.pt"
+                ]
+            },
+            {
+                "steps": 2500096,
+                "file_path": "results\\car_controll-ppo_3\\CarControll\\CarControll-2500096.onnx",
+                "reward": null,
+                "creation_time": 1713627695.674635,
+                "auxillary_file_paths": [
+                    "results\\car_controll-ppo_3\\CarControll\\CarControll-2500096.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2500096,
+            "file_path": "results\\car_controll-ppo_3\\CarControll.onnx",
+            "reward": null,
+            "creation_time": 1713627695.674635,
+            "auxillary_file_paths": [
+                "results\\car_controll-ppo_3\\CarControll\\CarControll-2500096.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

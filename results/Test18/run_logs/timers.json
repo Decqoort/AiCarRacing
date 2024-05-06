@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1713457342",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 16:30:00) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\Unity\\Ai Car Racing\\venv\\Scripts\\mlagents-learn --run-id=Test18",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.0+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1713457425"
+    },
+    "total": 83.010818,
+    "count": 1,
+    "self": 0.01095959999999252,
+    "children": {
+        "run_training.setup": {
+            "total": 0.2672119000000004,
+            "count": 1,
+            "self": 0.2672119000000004
+        },
+        "TrainerController.start_learning": {
+            "total": 82.7326465,
+            "count": 1,
+            "self": 0.00020480000000588916,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 82.7324239,
+                    "count": 1,
+                    "self": 82.7324239
+                },
+                "TrainerController._save_models": {
+                    "total": 1.7799999994849713e-05,
+                    "count": 1,
+                    "self": 1.7799999994849713e-05
+                }
+            }
+        }
+    }
+}

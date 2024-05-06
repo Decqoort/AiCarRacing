@@ -1,0 +1,65 @@
+{
+    "MoveRightTurn": {
+        "checkpoints": [
+            {
+                "steps": 499968,
+                "file_path": "results\\RightTurn_ppo\\MoveRightTurn\\MoveRightTurn-499968.onnx",
+                "reward": -15648.444931030273,
+                "creation_time": 1713605725.3113408,
+                "auxillary_file_paths": [
+                    "results\\RightTurn_ppo\\MoveRightTurn\\MoveRightTurn-499968.pt"
+                ]
+            },
+            {
+                "steps": 999992,
+                "file_path": "results\\RightTurn_ppo\\MoveRightTurn\\MoveRightTurn-999992.onnx",
+                "reward": null,
+                "creation_time": 1713606749.165767,
+                "auxillary_file_paths": [
+                    "results\\RightTurn_ppo\\MoveRightTurn\\MoveRightTurn-999992.pt"
+                ]
+            },
+            {
+                "steps": 1499960,
+                "file_path": "results\\RightTurn_ppo\\MoveRightTurn\\MoveRightTurn-1499960.onnx",
+                "reward": null,
+                "creation_time": 1713607749.761869,
+                "auxillary_file_paths": [
+                    "results\\RightTurn_ppo\\MoveRightTurn\\MoveRightTurn-1499960.pt"
+                ]
+            },
+            {
+                "steps": 1999992,
+                "file_path": "results\\RightTurn_ppo\\MoveRightTurn\\MoveRightTurn-1999992.onnx",
+                "reward": null,
+                "creation_time": 1713608765.9277332,
+                "auxillary_file_paths": [
+                    "results\\RightTurn_ppo\\MoveRightTurn\\MoveRightTurn-1999992.pt"
+                ]
+            },
+            {
+                "steps": 2000376,
+                "file_path": "results\\RightTurn_ppo\\MoveRightTurn\\MoveRightTurn-2000376.onnx",
+                "reward": -19797.3125,
+                "creation_time": 1713608766.0420418,
+                "auxillary_file_paths": [
+                    "results\\RightTurn_ppo\\MoveRightTurn\\MoveRightTurn-2000376.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000376,
+            "file_path": "results\\RightTurn_ppo\\MoveRightTurn.onnx",
+            "reward": -19797.3125,
+            "creation_time": 1713608766.0420418,
+            "auxillary_file_paths": [
+                "results\\RightTurn_ppo\\MoveRightTurn\\MoveRightTurn-2000376.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

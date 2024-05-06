@@ -1,0 +1,29 @@
+{
+    "MoveRightTurn": {
+        "checkpoints": [
+            {
+                "steps": 29498,
+                "file_path": "results\\Test16\\MoveRightTurn\\MoveRightTurn-29498.onnx",
+                "reward": -1.8235294117647058,
+                "creation_time": 1713456428.4977427,
+                "auxillary_file_paths": [
+                    "results\\Test16\\MoveRightTurn\\MoveRightTurn-29498.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 29498,
+            "file_path": "results\\Test16\\MoveRightTurn.onnx",
+            "reward": -1.8235294117647058,
+            "creation_time": 1713456428.4977427,
+            "auxillary_file_paths": [
+                "results\\Test16\\MoveRightTurn\\MoveRightTurn-29498.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}
