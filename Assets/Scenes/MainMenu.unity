@@ -4529,6 +4529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scriptableObjectsList:
   - {fileID: 11400000, guid: 252e3d42ade46a04f8fc3e15f472910e, type: 2}
+  - {fileID: 11400000, guid: 1b7a380d925ab5842a2805c612432365, type: 2}
   mapDisplay: {fileID: 1242056709}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

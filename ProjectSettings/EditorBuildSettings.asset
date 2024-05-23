@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ForestEdge.unity
     guid: 0ccfb99b4397ac0469b3efaeca0a9a47
+  - enabled: 1
+    path: Assets/Scenes/DarkForest.unity
+    guid: 79ca1c7eadecad349bedc6a1f0067da3
   m_configObjects: {}

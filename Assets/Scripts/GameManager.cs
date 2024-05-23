@@ -36,6 +36,11 @@ public class GameManager : MonoBehaviour
         isStart = true;
     }
 
+    public int getLaps()
+    {
+        return counLaps;
+    }
+
     private void LoadScene()
     {
         Transform carTransform_ = GetComponentInParent<Transform>().Find("Cars");

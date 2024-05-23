@@ -59,6 +59,26 @@ public class TrackCheckpoints : MonoBehaviour
             }
             while (!checkpointSingleList[nextCheckpointSingleIndex].gameObject.activeSelf);
 
+            if (nextCheckpointSingleIndex == 0)
+            {
+                if(carTransform.TryGetComponent<Car>(out Car car))
+                {
+                    car.isEndLap = true;
+                }
+            }
+
+            if (nextCheckpointSingleIndex == 1)
+            {
+                if (carTransform.TryGetComponent<Car>(out Car car))
+                {
+                    if (car.isEndLap)
+                    {
+                        car.currentLap++;
+                        car.isEndLap = false;
+                    }
+                }
+            }
+
             nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform)]
                 = nextCheckpointSingleIndex;
             OnCarCorrectCheckpoint?.Invoke(this, carCheckpointEventArgs);
