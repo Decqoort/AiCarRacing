@@ -52,6 +52,9 @@ public class CarController : MonoBehaviour
 
     public bool isRun = false;
 
+    public float hoverHeight = 1f; // Максимальное расстояние рейкаста
+    public LayerMask terrainLayer;
+
     private void Awake()
     {
         carRigidbody = GetComponent<Rigidbody>();
@@ -105,7 +108,7 @@ public class CarController : MonoBehaviour
         speed = Mathf.Clamp(speed, speedMin, speedMax);
 
         carRigidbody.velocity = transform.forward * speed;
-        carRigidbody.velocity += -transform.up * 9.81f;
+        //carRigidbody.velocity += -transform.up * 9.81f;
 
         if (speed < 0)
         {
@@ -152,6 +155,30 @@ public class CarController : MonoBehaviour
         if (transform.eulerAngles.x > 2 || transform.eulerAngles.x < -2 || transform.eulerAngles.z > 2 || transform.eulerAngles.z < -2)
         {
             transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
+        }
+
+        AlignToSurface();
+    }
+
+    void AlignToSurface()
+    {
+        RaycastHit hit;
+
+        // Пускаем луч вниз от объекта
+        if (Physics.Raycast(transform.position, -Vector3.up, out hit, Mathf.Infinity, terrainLayer))
+        {
+            // Расстояние до земли и нормаль к поверхности
+            float distanceToGround = hit.distance;
+            Vector3 groundNormal = hit.normal;
+
+            // Поддержание постоянного расстояния до земли
+            Vector3 hoverPosition = transform.position;
+            hoverPosition.y += (hoverHeight - distanceToGround);
+            transform.position = hoverPosition;
+
+            // Поворот в соответствии с наклоном поверхности
+            Quaternion targetRotation = Quaternion.FromToRotation(transform.up, groundNormal) * transform.rotation;
+            transform.rotation = targetRotation/*Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 5)*/;
         }
     }
 

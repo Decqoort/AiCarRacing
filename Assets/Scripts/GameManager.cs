@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public struct FinishState
 {
@@ -90,10 +91,11 @@ public class GameManager : MonoBehaviour
         // Pause (Esc)
         if (Input.GetKey(KeyCode.Escape))
         {
-            if (isRunning)
+            /*if (isRunning)
                 StopGame();
             else
-                RunGame();
+                RunGame();*/
+            SceneManager.LoadScene(0);
         }
 
     }

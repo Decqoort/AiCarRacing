@@ -9986,8 +9986,16 @@ PrefabInstance:
       value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: hoverHeight
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: maxSteerAngle
       value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: terrainLayer.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 2456828158474025187, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16016,8 +16024,16 @@ PrefabInstance:
       value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: hoverHeight
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: maxSteerAngle
       value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: terrainLayer.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 2456828158474025187, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23093,8 +23109,16 @@ PrefabInstance:
       value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: hoverHeight
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: maxSteerAngle
       value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: terrainLayer.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 2456828158474025187, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24294,7 +24318,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1157.875, y: 404.75}
+  m_AnchoredPosition: {x: -150, y: -300}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &982846705
@@ -26379,8 +26403,16 @@ PrefabInstance:
       value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: hoverHeight
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: maxSteerAngle
       value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: terrainLayer.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 2456828158474025187, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26682,7 +26714,7 @@ GameObject:
   - component: {fileID: 1053577539}
   - component: {fileID: 1053577538}
   - component: {fileID: 1053577537}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29262,8 +29294,16 @@ PrefabInstance:
       value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: hoverHeight
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: maxSteerAngle
       value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: terrainLayer.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 2456828158474025187, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32000,8 +32040,16 @@ PrefabInstance:
       value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: hoverHeight
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: maxSteerAngle
       value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: terrainLayer.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 2456828158474025187, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44696,8 +44744,16 @@ PrefabInstance:
       value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: hoverHeight
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: maxSteerAngle
       value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: terrainLayer.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 2456828158474025187, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45573,8 +45629,16 @@ PrefabInstance:
       value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: hoverHeight
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: maxSteerAngle
       value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: terrainLayer.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 2456828158474025187, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -51803,8 +51867,16 @@ PrefabInstance:
       value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: hoverHeight
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: maxSteerAngle
       value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394853934228933714, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
+      propertyPath: terrainLayer.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 2456828158474025187, guid: 8a2ac6347cabbf341a4bb3725e22bf63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54138,7 +54210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &2044031764
 Light:
   m_ObjectHideFlags: 0
@@ -54151,7 +54223,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -54299,7 +54371,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!120 &2046235253
 LineRenderer:
   serializedVersion: 2
@@ -54436,7 +54508,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -54486,7 +54558,7 @@ Transform:
   m_GameObject: {fileID: 2046235252}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 270, y: 337.1488, z: 422.43784}
+  m_LocalPosition: {x: 120, y: 120, z: 120}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
